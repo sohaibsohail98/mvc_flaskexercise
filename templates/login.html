@@ -21,6 +21,9 @@
       {% for message in get_flashed_messages() %}
         {{ message }}
       {% endfor %}
+      <form action="#" method="POST">
+        <p><input type="button" value = "Cancel" onclick="javascript:window.location='http://127.0.0.1:5000/welcome';"></p>
+      </form>
     </div>
   </body>
 </html>
